@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porfolio Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md navbar-light bg-gray sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="img/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page2">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="page1">
+      <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li>
+          <li data-target="#slides" data-slide-to="1"></li>
+          <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/background.png" />
+            <div class="carousel-caption">
+              <h1 class="display-1">Welcome to my Portfolio</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/background2.jpg" />
+            <div class="carousel-caption">
+              <h3 class="display-2">I love Anime</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/background3.jpg" />
+            <div class="carousel-caption">
+              <h3 class="display-2">I Also love Playing Games</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="page2" style="padding-top: 80px">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left Column -->
+          <div class="col-md-6">
+            <div class="w3-white w3-text-grey w3-card-4">
+              <div class="w3-display-container">
+                <img src="img/pic.jpg" style="width: 100%" alt="Avatar" />
+                <div class="w3-display-bottomleft w3-container w3-text-black">
+                  <h2>Kent Jhon M. Dumapias</h2>
+                </div>
+              </div>
+              <div class="w3-container">
+                <p>
+                  <i
+                    class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
+                  ></i
+                  >Aspiring Software Engineer
+                </p>
+                <p>
+                  <i
+                    class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
+                  ></i
+                  >Cagayan de Oro, Philippines
+                </p>
+                <p>
+                  <i
+                    class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
+                  ></i
+                  >dumapias.kentjhon@mail.com
+                </p>
+                <p>
+                  <i
+                    class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
+                  ></i
+                  >095348854487
+                </p>
+                <hr />
+              </div>
+            </div>
+            <br />
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-6">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16">
+                <i
+                  class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+                ></i
+                >Work Experience
+              </h2>
+              <div class="w3-container">
+                <h5 class="w3-opacity">
+                  <b>Programming</b>
+                </h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2024 -
+                  <span class="w3-tag w3-teal w3-round">Current</span>
+                </h6>
+                <p>
+                  Working with Java, Python, PHP, Laravel and C! Currently
+                  Learning JavaScript and Kotlin
+                </p>
+                <hr />
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Video Editor</b></h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2023 -
+                  Jan 2014
+                </h6>
+                <p>Used capcut and trying to learn Adobe Premier!</p>
+                <hr />
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity">
+                  <b>Photoshop / Graphics Design</b>
+                </h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2023 -
+                  Jan 2024
+                </h6>
+                <p>Handled different task such as Pet portrait.</p>
+                <br />
+              </div>
+            </div>
+
+            <div class="w3-container w3-card w3-white">
+              <h2 class="w3-text-grey w3-padding-16">
+                <i
+                  class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+                ></i
+                >Education
+              </h2>
+              <div class="w3-container">
+                <h5 class="w3-opacity">
+                  <b
+                    >University of Science and Technology of Southern
+                    Philippines</b
+                  >
+                </h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>4 years
+                </h6>
+                <p>I love USTP</p>
+                <hr />
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Tokyo Institute of Technology</b></h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>2026 -
+                  2030
+                </h6>
+                <p>Master Degree</p>
+                <hr />
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-opacity"><b>Cagayan de Oro Colleges</b></h5>
+                <h6 class="w3-text-teal">
+                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 -
+                  2022
+                </h6>
+                <p>Senior HighSchool</p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="emailForm" style="padding-top: 80px">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="post">
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            <div id="successMessage" style="display: none; margin-top: 10px">
+              <p>Email sent successfully!</p>
+            </div>
+            <div id="errorMessage" style="display: none; margin-top: 10px">
+              <p>Failed to send email. Please try again later.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      id="footer"
+      style="background-color: black; color: white; padding: 20px"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center">
+            <a
+              href="https://www.facebook.com/kentjhon.dumapias"
+              style="margin-right: 100px"
+              ><i class="fab fa-facebook" style="font-size: 1.5em"></i
+            ></a>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram" style="font-size: 1.5em"></i
+            ></a>
+            <a href="https://github.com/KentJhon" style="margin-left: 100px"
+              ><i class="fab fa-github" style="font-size: 1.5em"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
